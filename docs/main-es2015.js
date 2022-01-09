@@ -593,7 +593,7 @@ let ResultsService = class ResultsService {
     callService(item) {
         const formData = new FormData();
         formData.append('image', item);
-        return this.http.post('http://galiatsoskontosorostn.eu.pythonanywhere.com/results', formData);
+        return this.http.post('https://galiatsoskontosorostn.eu.pythonanywhere.com/results', formData);
     }
 };
 ResultsService.ctorParameters = () => [
