@@ -1138,7 +1138,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         value: function callService(item) {
           var formData = new FormData();
           formData.append('image', item);
-          return this.http.post('http://127.0.0.1:5000/results', formData);
+          return this.http.post('http://galiatsoskontosorostn.eu.pythonanywhere.com/results', formData);
         }
       }]);
 
